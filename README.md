@@ -1,1 +1,1 @@
-About this project: 
+Quick access to C++ concepts
