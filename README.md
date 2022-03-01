@@ -1,1 +1,1 @@
-Quick access to C++ concepts
+Quick access to C++ concepts, mostly OOP
