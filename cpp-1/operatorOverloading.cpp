@@ -4,8 +4,9 @@ using namespace std;
 
 class Vector2
 {
-public:
+private:
 	float x, y;
+public:
 	Vector2(float x, float y) : x(x), y(y) {}
 
 	Vector2 Add(const Vector2& other) const
@@ -40,8 +41,9 @@ public:
 	{
 		return !(*this == other);
 	}
-
+	friend std::ostream& operator<<(std::ostream& stream, const Vector2& other);
 };
+
 
 std::ostream& operator<<(std::ostream& stream, const Vector2& other)
 {
