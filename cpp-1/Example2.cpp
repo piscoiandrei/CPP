@@ -51,5 +51,8 @@ class Shape : public Entity
 
 int main()
 {
-
+	Employee e("24", make_pair(13, 41), "TOSHIBA", 14);
+	cout << e.getGender() << '\n';
+	cout << e.getName() << '\n';
+	cout << e.getPos().first << '\n';
 }
